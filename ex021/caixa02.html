@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de caixas</title>
+    <style>
+        body{
+            background-color: lightslategray;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0px;
+        }
+
+        header{
+            background-color: whitesmoke;
+            color: darkslategrey;
+            padding: 10px;
+            border-radius: 10px;
+            margin: 10px;
+            box-shadow: 3px 2px 5px rgba(0, 0, 0, 0.445);
+        }
+
+        h1#titulo{
+            text-align: center;
+        }
+
+        main > section > article{
+            background-color: lightslategray;
+            padding: 10px;
+            margin: 10px;
+            box-shadow: 3px 2px 5px rgba(0, 0, 0, 0.445);
+            border-radius: 15px;
+        }
+
+        h2#titulo{
+            background-color: lightslategray;
+            text-align: center;
+        }
+
+        p#p_main{
+            background-color: lightslategray;
+        } 
+    
+        nav{
+            color: lightblue;
+            background-color: rgb(83, 81, 81);
+            padding: 10px;
+            margin: 10px;
+            border-radius: 8px;
+            text-align: center;
+            box-shadow: 3px 2px 5px rgba(0, 0, 0, 0.445);
+            }
+
+        nav > a{
+            margin-right: 5px;
+            background-color: rgb(83, 81, 81);
+            text-decoration: none;
+            color: rgb(221, 210, 113);
+            padding: 10px;
+            font-weight: bold;
+
+        }
+
+        nav > a:hover{
+            background-color: darkslategray;
+            color: rgb(212, 108, 10);
+        }
+
+        main{
+            background-color: whitesmoke;
+            border-radius: 10px;
+            padding: 10px;
+            margin: 10px;
+            box-shadow: 3px 2px 5px rgba(0, 0, 0, 0.445);
+        }
+
+        footer{
+            background-color: darkslategrey;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+        }
+
+        p#citacao{
+            background-color: grey;
+            text-align: right;
+            border-radius: 5px;
+            padding: 5px;
+            margin: 10px;
+        }
+
+        footer > p{
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 id="titulo">Meu site em teste de caixas</h1>
+        <nav>
+            <a href="">Link</a>
+            <a href="">Link</a>
+            <a href="">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <article>
+                <h2 id="titulo">Olha o teste</h2>
+                <p id="p_main">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt sed fuga dolores accusamus, ducimus cumque totam iste voluptatibus veritatis adipisci voluptatum autem quia ipsa, aspernatur, explicabo tempora quos asperiores unde.</p>
+                <p id="citacao">Escrito por Alexandre</p>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Alexandre N Nahirniak</p>
+    </footer>
+</body>
+</html>

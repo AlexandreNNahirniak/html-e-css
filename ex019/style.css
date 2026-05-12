@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+/*
+em HTML id é igual # em CSS
+em HTML class é igual . em CSS
+*/
+
+body{
+    background-image: linear-gradient(to right, rgb(122, 201, 135), rgb(26, 126, 35));
+}
+
+div{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: green;
+}
+
+/*h1{
+    text-align: center;
+    color: rgb(6, 66, 6);
+}*/
+
+.principal{
+    color: rgb(69, 212, 69);
+    border-radius: 5px;
+    padding: 3px;
+    background-color: rgb(23, 134, 23);
+    text-shadow: black 2px 2px 5px;
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+p{
+    text-align: justify;
+    color: rgb(76, 233, 71);
+}
+
+.basico{
+    color: rgba(9, 40, 124, 0.815);
+}
+
+.intermediario{
+    color: rgba(255, 255, 0, 0.74);
+}
+
+.avancado{
+    color: rgba(255, 0, 0, 0.699);
+}
